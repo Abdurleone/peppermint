@@ -1,7 +1,7 @@
 FROM node:lts AS builder
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /apps
 
 RUN apt-get update && \
     apt-get install -y build-essential python3
